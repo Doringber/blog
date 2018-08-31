@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html dir="rtl">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+<body class= w3-blue-grey dir="rtl">
+<!-- Navigation -->
+<!-- Slide Show -->
+<section>
+  <img class="mySlides w3-padding-20" src="/Applications/Brackets.app/Contents/samples/root/Getting Started/blogSite/476934151-1500x500.jpg" style="width:100%">
+  
+</section>
+
+<section class="w3-container w3-content w3-center w3-light-grey" style="max-width:800px">
+    <h2>חופשה במזרח</h2>
+    <p class="w3-justify">
+    
+    אני איך שאני חוזר מתאילנד מוצא עבודה מתחיל לימודים וקריירה זה מה שאני הולך לעשות. טיסה באורך הגלות אפילו לפלשתים, לא הייתי מאחל כזו טיסה 4 כיסי אוויר ולי נהיה חור בכיס המרה. מגיעים לאי קטן גדול יפה ומיוחד שכולו מדבר כמו בשוק הכרמל , חמוד בוא לפה מציצה 30 באט, פיקי פיקי סאקי סאקי כול הצבעים והמינים . 
+    אז וואלה עצרתי, מכה של ריחות ושל מראות שהעין לא קולטת אבל הקול הזה מוכר, כי לזיין אותך בתחת בכול העולם מותר. נסעתי חצי עולם בשביל שידפקו אותי כמו בשוק הכרמל? ועוד עם בחורה שיש לה צינור, בחיים לא, אני בורח. לקריירה ומקצוע כן החלום הישראלי שלי, בית בתל אביב או בגולן הסורי ולימודים בתעשייה ומינהל אך איזה יופי. הבעיה שאני תקוע באי ישראלים ששמו בכלל תאילנד 
+    איך היינו מדברים על זה בשירות, כמה נזיין באי הזה כמה נשתה נעשן יהיה נפלא בסוף קיבלתי זין בהפתעה, חצי מסומם שיכור, בלונדה שווה רואה רק מטרה ,פועל על טייס אוטומטי מתחיל להתחמם בסוף בחדר מגלה את הפתעה . פתאום צלצול טלפון מחזיר אותי למציאות, הלוואי שיכלתי לקחת את ההרגשה לדחוף אותה לכד קטן שאותו ייקח לכול מקום. יום למחרת נועז שאל אותי למה אתה מסתובב עם כד ואיך תעשה ג'ט סקי איתו? אז אמרתי לו מה הבעיה אני יקשור אותו אליי וישמור אליו 
+    הסתובבנו בבנגקוק ופתאום אני מבין שתאילנדי קטן צועק עליי ומנסה לקחת לי את הכד , אני נלחם בו ולא משחרר אסור לי לאבד את כול החוויות שלי  אני מרגיש שמשהו רע הולך לקרות ובגלל מצמוץ אחד יותר מידי אני מבין שהוא לקח את הכד וכבר נכנס לאיזה סמטה, ואני נשארתי תקוע באמצע עיר שבערך בגודל של גבעתיים כפול 4 בלי חוויה אחת, והכול בגלל איזה ילד צהוב אחד שלא הבנתי מה הוא רצה, בכול מקרה הוא קיבל מלא חוויות ואני מקנא בו. בסופו של דבר התברר לי שזה היה כד של עפר או משהו כזה וזה נגד הדת שלהם של הקירחים האלה, העיקר הוא ידע איך זה להיות עם קוקסינל.
+        
+        </p>
+</section>
+
+
+<!-- Content will go here -->
+<!-- Footer -->
+<footer class="w3-container w3-padding-40 w3-center w3-black w3-xsmall">
+  <a href="#"><i class="fa fa-facebook-official"></i></a>
+  <a href="#"><i class="fa fa-pinterest-p"></i></a>
+  <a href="#"><i class="fa fa-twitter"></i></a>
+  <a href="#"><i class="fa fa-flickr"></i></a>
+  <a href="#"><i class="fa fa-linkedin"></i></a>
+  <p class="w3-medium">
+    Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a>
+  </p>
+</footer>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+</body>
+</html>
