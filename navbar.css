@@ -122,3 +122,6 @@ height: 25px;
     color: white;
     font-size: 20px;
 }
+html {
+   min-width: 940px;
+}
