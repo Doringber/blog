@@ -123,14 +123,15 @@ height: 25px;
     font-size: 20px;
 }
 .button {
-    background-color: gray; /* Green */
+    background-color: dimgray; /* Green */
     float: right;
-    border: 1px solid white;
+    border: 3px solid white;
     color: white;
-    padding: 15px 15px;
+    padding: 10px 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 10px;
 }
+
 
