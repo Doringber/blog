@@ -67,9 +67,9 @@ height: 25px;
 	
     list-style-type: none;
     padding: 10;
-    margin: 0;
+    margin: 10;
     position: relative;
-    min-width: 200px;
+    min-width: 100px;
 }
 #nav ul li {
 	margin-top: %;
