@@ -6,27 +6,34 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="navbar.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <style>
 body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 </style>
 <body class="w3-dark-grey">
-  <div id="nav">
-    <div id="nav_wrapper">
-      <ul>        
-           <li id="et"> <a href="index.html">בית</a>
-                    </li>
-            <li id="et"> <a href="https://www.facebook.com/profile.php?id=100016105637569">Facebook</a>
-                                    </li>
-                      <li id="et"> <a href="https://www.linkedin.com/in/dor-ingber-8757ab136/">Linkedin</a>
-                                    </li>
 
-                    </li>
-                </ul>
-            </li>
-        </ul>    
-       
-    </div>
+ <!-- Sidebar with image -->
+<nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:0%">
+  <div class="bgimg"></div>
+</nav>
+
+<!-- Hidden Sidebar (reveals when clicked on menu icon)-->
+<nav class="w3-sidebar w3-transparent w3-animate-opacity w3-xxlarge" style="display:none;padding-top:10px;right:60;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-white w3-xxxlarge w3-display-topright" style="padding:0 12px;">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="w3-bar-block w3-center ">
+    <a href="index.html" class="w3-bar-item w3-button w3-white w3-hover-black" onclick="closeNav()">Home</a>
+    <a href="https://www.facebook.com/profile.php?id=100016105637569" class="w3-bar-item w3-button w3-white w3-hover-black" onclick="closeNav()">Facebook</a>
+    <a href="https://www.linkedin.com/in/dor-ingber-8757ab136/" class="w3-bar-item w3-button w3-white w3-hover-black" onclick="closeNav()">Linkedin</a>
+    
+  </div>
+</nav>
+
+  <!-- Menu icon to open sidebar -->
+  <span class="w3-button w3-top w3-white w3-xxlarge w3-dark-gray w3-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
 
 <!-- w3-content defines a container for fixed size centered content, 
 and is wrapped around the whole page content, except for the footer in this example -->
@@ -34,7 +41,7 @@ and is wrapped around the whole page content, except for the footer in this exam
 
 <!-- Header -->
 <header class="w3-container w3-center w3-padding-32"> 
-  <h1><b>הסיפורים שלי</b></h1>
+  <h1><b>סיפורים קצרים.</b></h1>
   <p>ברוכים הבאים לסיפורים <span class="w3-tag">המוזרים</span> שלי </p>
 </header>
 
@@ -64,7 +71,15 @@ and is wrapped around the whole page content, except for the footer in this exam
      
   
     </div>
-
+ <script>
+function openNav() {
+    document.getElementById("mySidebar").style.width = "40%";
+    document.getElementById("mySidebar").style.display = "block";
+}
+function closeNav() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+</script>
 
 </body>
 </html>
